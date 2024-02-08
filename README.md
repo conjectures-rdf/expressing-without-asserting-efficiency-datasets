@@ -1,8 +1,10 @@
 This project can be summarised as follows and it is explained in this README.md file.
-
+# Title
 ![EWA efficiency tests workflow](documentation/ewa_efficiency_workflow_datasets.png)
 
-## Data acquisition
+## Data Preparation
+
+### Data acquisition
 
 The dataset on which these experiments have been run is composed as follows and has been named D3:
 
@@ -29,7 +31,7 @@ LIMIT 3000000
 
 - **Dummy**: a selection of dummy statements regarding the artwork attributions (represented by the property `wdt:P50` and `wdt:P170` and including from 1 to 4 authors in each claim and the source of the claim) and artworks locations (represented by the property `wdt:P276`, including 1 possible location, time constraints and source) has been created. Those new statements contain dummy arbitrary information ranked as deprecated and therefore non-asserted to represent alternative or historical claims to those contained in Art dataset. This design choice was made to increase the number of conjectural statements in the final dataset. Dummy statements have been programmatically produced via Python scripts, all scripts and detailed description is provided in folder `data_acquisition/dummy_statements`.
 
-## Data scaling 
+### Data scaling 
 
 An excellent way to evaluate an algorithm’s performance is to observe how it responds to variations in input size. We started by downloading the whole subset of artwork entities, related individuals (basically, attributed authors), and locations. This dataset, called D4, is composed of about 3,5 million artwork entities and 188 thousand related entities (humans and locations). We have not used this dataset for our comparison due to the excessive number of timeouts in many of the queries and methods we used. Thus we scaled the dataset logarithmically in three further sizes ($Dn, \; n \in [1, 3]$):
 
