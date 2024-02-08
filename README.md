@@ -39,7 +39,7 @@ An excellent way to evaluate an algorithm’s performance is to observe how it r
 - **Dataset D2**: D2 is obtained by extracting one-tenth of the data in D3 (D2 = D3/10).
 - **Dataset D1**: D1 is obtained by extracting one-tenth of the data in D2 (D1 = D2/10).
 
-## EWA approaches selection
+## EWA approaches survey and selection
 We then surveyed the state of the art regarding reification methods to express without asserting and selected a set of methods for our analysis: **Singleton properties**, **Named graphs** (using Wikidata rankings to decide whether a triple is asserted or not), **Wikidata**, and the recent **RDF-star** approach. 
 
 ## Data conversion
