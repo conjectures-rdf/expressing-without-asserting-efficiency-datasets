@@ -1,6 +1,6 @@
 This project can be summarised as follows and it is explained in this README.md file.
 
-![EWA efficiency tests workflow](documentation/ewa_efficiency_workflow.png)
+![EWA efficiency tests workflow](documentation/ewa_efficiency_workflow_datasets.png)
 
 ## Data acquisition
 
