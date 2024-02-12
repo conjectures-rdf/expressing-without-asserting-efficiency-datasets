@@ -1,5 +1,5 @@
-This project can be summarised as follows and it is explained in this README.md file.
-# Benchmarking Expressing Without Asserting approaches on large Wikidata Dumps - Notes on Datasets Construction
+# Benchmarking Expressing Without Asserting approaches on large Wikidata Dumps
+##  Notes on Datasets Construction
 ![EWA efficiency tests workflow](documentation/ewa_efficiency_workflow_datasets.png)
 
 ## Table of contents
