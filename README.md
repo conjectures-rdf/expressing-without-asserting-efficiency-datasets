@@ -1,6 +1,23 @@
 This project can be summarised as follows and it is explained in this README.md file.
-# Title
+# Benchmarking Expressing Without Asserting approaches on large Wikidata Dumps - Notes on Datasets Construction
 ![EWA efficiency tests workflow](documentation/ewa_efficiency_workflow_datasets.png)
+
+## Table of contents
+- [Data Preparation](#data-preparation)
+  - [Data acquisition](#data-acquisition)
+  - [Data scaling](#data-scaling)
+- [EWA approaches survey and selection](#ewa-approaches-survey-and-selection)
+- [Data conversion](#data-conversion)
+  - [Assertion vs Non-Assertion Logic](#assertion-vs-non-assertion-logic)
+  - [Converting JSON files via Wikidata Converter App](#converting-json-files-via-wikidata-converter-app)
+  - [Dataset Validation](#dataset-validation)
+- [Example Output RDF Files out of Handlebars Templates](#example-output-rdf-files-out-of-handlebars-templates)
+  - [Wikidata](#wikidata)
+  - [Named Graphs](#named-graphs)
+  - [Singleton Properties](#singleton-properties)
+  - [RDF-star (RDF 1.1 syntax extension)](#rdf-star-rdf-11-syntax-extension)
+  - [Conjectures (weak form)](#conjectures-weak-form)
+  - [Conjectures (strong form)](#conjectures-weak-form)
 
 ## Data Preparation
 
